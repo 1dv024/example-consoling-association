@@ -20,7 +20,7 @@ namespace ConsolingAssociation
             other.PetName = "Mack";
             other.Start();
             other.Accelerate();
-            other.Go(Direction.MakeUturn);
+            other.Go(Direction.MakeUTurn);
             ViewLog(other);
 
             ViewLog(car);

@@ -48,7 +48,7 @@ namespace ConsolingAssociation
                     _driversLog.Add($"{PetName} turns right.");
                     break;
 
-                case Direction.MakeUturn:
+                case Direction.MakeUTurn:
                     _driversLog.Add($"{PetName} makes a U-turn.");
                     break;
 

@@ -31,7 +31,7 @@ namespace ConsolingAssociation
                     _driversLog.Add($"{PetName} turns right.");
                     break;
 
-                case Direction.MakeUturn:
+                case Direction.MakeUTurn:
                     _driversLog.Add($"{PetName} makes a U-turn.");
                     break;
 
@@ -45,14 +45,6 @@ namespace ConsolingAssociation
         public void Break() => _driversLog.Add(Speed >= 5
             ? $"{PetName} slows down to {Speed -= 5} km/h."
             : $"{PetName} can't slow down more.");
-
-        public Car Copy()
-        {
-            var other = (Car) MemberwiseClone();
-            other._driversLog = new List<string>(_driversLog);
-
-            return other;
-        }
 
         public void Start()
         {

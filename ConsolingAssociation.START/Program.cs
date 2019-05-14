@@ -11,11 +11,10 @@ namespace ConsolingAssociation
         private static void Main()
         {
             var car = new Car { PetName = "McQueen" };
-
-            Crusie(car);
+            Run(car);
         }
 
-        private static void Crusie(Car car)
+        private static void Run(Car car)
         {
             car.Start();
             Console.WriteLine(car.LastLogEntry);

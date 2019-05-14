@@ -11,6 +11,6 @@ namespace ConsolingAssociation
         GoStraightAHead,
         TurnLeft,
         TurnRight,
-        MakeUturn
+        MakeUTurn
     }
 }

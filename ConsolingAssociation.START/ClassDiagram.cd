@@ -1,24 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="ConsolingAssociation.Car">
-    <Position X="6.75" Y="1.75" Width="3" />
+    <Position X="8.25" Y="1.75" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAIQAAACAQAAAEAAAEAAADGgAAQAAAIAAAAAgAAAA=</HashCode>
+      <HashCode>AAAAIAAAACAAAAAEAAAEAAADGAAAAAAAIAAAAAgAAAA=</HashCode>
       <FileName>Car.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="_stereo" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="ConsolingAssociation.Stereo">
-    <Position X="11" Y="1.75" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAQAIAAACAAAA=</HashCode>
-      <FileName>Stereo.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="ConsolingAssociation.Direction">
-    <Position X="11" Y="4.25" Width="1.5" />
+    <Position X="12" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAACAAICAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
       <FileName>Direction.cs</FileName>
